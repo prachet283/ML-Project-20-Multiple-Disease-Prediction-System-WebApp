@@ -12,86 +12,86 @@ import pandas as pd
 
 
 #loading the saved model of diabetes prediction
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Preprocessing File/ML-Project-2-Diabetes_Prediction_Pre_Processing_Files/columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-2-Diabetes_Prediction_Pre_Processing_Files/columns.pkl", 'rb') as f:
     all_features_diabetes_disease = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Preprocessing File/ML-Project-2-Diabetes_Prediction_Pre_Processing_Files/scaler.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-2-Diabetes_Prediction_Pre_Processing_Files/scaler.pkl", 'rb') as f:
     scalers_diabetes_disease = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Best Features/ML-Project-2-Diabetes_Prediction_Best_Features/best_features_svc.json", 'r') as file:
+with open("Best Features/ML-Project-2-Diabetes_Prediction_Best_Features/best_features_svc.json", 'r') as file:
     best_features_svc_diabetes_disease = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Best Features/ML-Project-2-Diabetes_Prediction_Best_Features/best_features_lr.json", 'r') as file:
+with open("Best Features/ML-Project-2-Diabetes_Prediction_Best_Features/best_features_lr.json", 'r') as file:
     best_features_lr_diabetes_disease = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Best Features/ML-Project-2-Diabetes_Prediction_Best_Features/best_features_rfc.json", 'r') as file:
+with open("Best Features/ML-Project-2-Diabetes_Prediction_Best_Features/best_features_rfc.json", 'r') as file:
     best_features_rfc_diabetes_disease = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Models/ML-Project-2-Diabetes_Prediction_Models/diabetes_disease_trained_svc_model.sav", 'rb') as f:
+with open("Models/ML-Project-2-Diabetes_Prediction_Models/diabetes_disease_trained_svc_model.sav", 'rb') as f:
     loaded_model_svc_diabetes_disease = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Models/ML-Project-2-Diabetes_Prediction_Models/diabetes_disease_trained_lr_model.sav", 'rb') as f:
+with open("Models/ML-Project-2-Diabetes_Prediction_Models/diabetes_disease_trained_lr_model.sav", 'rb') as f:
     loaded_model_lr_diabetes_disease = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Models/ML-Project-2-Diabetes_Prediction_Models/diabetes_disease_trained_rfc_model.sav", 'rb') as f:
+with open("Models/ML-Project-2-Diabetes_Prediction_Models/diabetes_disease_trained_rfc_model.sav", 'rb') as f:
     loaded_model_rfc_diabetes_disease = pickle.load(f)
 
 
 #loading the saved model of heart disease prediction
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Preprocessing File/ML-Project-9-Heart_Disease_Prediction_Pre_Processing_Files/columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-9-Heart_Disease_Prediction_Pre_Processing_Files/columns.pkl", 'rb') as f:
     all_columns_heart_disease = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Preprocessing File/ML-Project-9-Heart_Disease_Prediction_Pre_Processing_Files/cat_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-9-Heart_Disease_Prediction_Pre_Processing_Files/cat_columns.pkl", 'rb') as f:
     cat_columns_heart_disease = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Preprocessing File/ML-Project-9-Heart_Disease_Prediction_Pre_Processing_Files/encoder.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-9-Heart_Disease_Prediction_Pre_Processing_Files/encoder.pkl", 'rb') as f:
     encoder_heart_disease = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Preprocessing File/ML-Project-9-Heart_Disease_Prediction_Pre_Processing_Files/encoded_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-9-Heart_Disease_Prediction_Pre_Processing_Files/encoded_columns.pkl", 'rb') as f:
     encoded_columns_heart_disease = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Preprocessing File/ML-Project-9-Heart_Disease_Prediction_Pre_Processing_Files/training_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-9-Heart_Disease_Prediction_Pre_Processing_Files/training_columns.pkl", 'rb') as f:
     training_columns_heart_disease = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Preprocessing File/ML-Project-9-Heart_Disease_Prediction_Pre_Processing_Files/scaler.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-9-Heart_Disease_Prediction_Pre_Processing_Files/scaler.pkl", 'rb') as f:
     scaler_heart_disease = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Best Features/ML-Project-9-Heart_Disease_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
+with open("Best Features/ML-Project-9-Heart_Disease_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_heart_disease = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Best Features/ML-Project-9-Heart_Disease_Prediction_Best_Features/best_features_rfc.json", 'r') as file:
+with open("Best Features/ML-Project-9-Heart_Disease_Prediction_Best_Features/best_features_rfc.json", 'r') as file:
     best_features_rfc_heart_disease = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Best Features/ML-Project-9-Heart_Disease_Prediction_Best_Features/best_features_lr.json", 'r') as file:
+with open("Best Features/ML-Project-9-Heart_Disease_Prediction_Best_Features/best_features_lr.json", 'r') as file:
     best_features_lr_heart_disease = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Models/ML-Project-9-Heart_Disease_Prediction_Models/heart_disease_trained_xgb_model.sav", 'rb') as f:
+with open("Models/ML-Project-9-Heart_Disease_Prediction_Models/heart_disease_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_heart_disease = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Models/ML-Project-9-Heart_Disease_Prediction_Models/heart_disease_trained_rfc_model.sav", 'rb') as f:
+with open("Models/ML-Project-9-Heart_Disease_Prediction_Models/heart_disease_trained_rfc_model.sav", 'rb') as f:
     loaded_model_rfc_heart_disease = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Models/ML-Project-9-Heart_Disease_Prediction_Models/heart_disease_trained_lr_model.sav", 'rb') as f:
+with open("Models/ML-Project-9-Heart_Disease_Prediction_Models/heart_disease_trained_lr_model.sav", 'rb') as f:
     loaded_model_lr_heart_disease = pickle.load(f)
 
 
 #loading the saved model of parkinson disease
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Preprocessing File/ML-Project-14-Parkinson's_Disease_Prediction_Pre_Processing_Files/columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-14-Parkinson's_Disease_Prediction_Pre_Processing_Files/columns.pkl", 'rb') as f:
     all_features_parkinson_disease = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Preprocessing File/ML-Project-14-Parkinson's_Disease_Prediction_Pre_Processing_Files/scaler.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-14-Parkinson's_Disease_Prediction_Pre_Processing_Files/scaler.pkl", 'rb') as f:
     scalers_parkinson_disease = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Best Features/ML-Project-14-Parkinson's_Disease_Prediction_Best_Features/best_features_knn.json", 'r') as file:
+with open("Best Features/ML-Project-14-Parkinson's_Disease_Prediction_Best_Features/best_features_knn.json", 'r') as file:
     best_features_knn_parkinson_disease = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Best Features/ML-Project-14-Parkinson's_Disease_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
+with open("Best Features/ML-Project-14-Parkinson's_Disease_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_parkinson_disease = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Best Features/ML-Project-14-Parkinson's_Disease_Prediction_Best_Features/best_features_rfc.json", 'r') as file:
+with open("Best Features/ML-Project-14-Parkinson's_Disease_Prediction_Best_Features/best_features_rfc.json", 'r') as file:
     best_features_rfc_parkinson_disease = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Models/ML-Project-14-Parkinson's_Disease_Prediction_Models/parkinsons_disease_trained_knn_model.sav", 'rb') as f:
+with open("Models/ML-Project-14-Parkinson's_Disease_Prediction_Models/parkinsons_disease_trained_knn_model.sav", 'rb') as f:
     loaded_model_knn_parkinson_disease = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Models/ML-Project-14-Parkinson's_Disease_Prediction_Models/parkinsons_disease_trained_xgb_model.sav", 'rb') as f:
+with open("Models/ML-Project-14-Parkinson's_Disease_Prediction_Models/parkinsons_disease_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_parkinson_disease = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Models/ML-Project-14-Parkinson's_Disease_Prediction_Models/parkinsons_disease_trained_rfc_model.sav", 'rb') as f:
+with open("Models/ML-Project-14-Parkinson's_Disease_Prediction_Models/parkinsons_disease_trained_rfc_model.sav", 'rb') as f:
     loaded_model_rfc_parkinson_disease = pickle.load(f)
 
 
 #loading the saved model of breast cancer
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Preprocessing File/ML-Project-19-Breast_Cancer_Classification_Pre_Processing_Files/columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-19-Breast_Cancer_Classification_Pre_Processing_Files/columns.pkl", 'rb') as f:
     all_features_breast_cancer = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Preprocessing File/ML-Project-19-Breast_Cancer_Classification_Pre_Processing_Files/scaler.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-19-Breast_Cancer_Classification_Pre_Processing_Files/scaler.pkl", 'rb') as f:
     scalers_breast_cancer = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Best Features/ML-Project-19-Breast_Cancer_Classification_Best_Features/best_features_lr.json", 'r') as file:
+with open("Best Features/ML-Project-19-Breast_Cancer_Classification_Best_Features/best_features_lr.json", 'r') as file:
     best_features_lr_breast_cancer = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Best Features/ML-Project-19-Breast_Cancer_Classification_Best_Features/best_features_xgb.json", 'r') as file:
+with open("Best Features/ML-Project-19-Breast_Cancer_Classification_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_breast_cancer = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Best Features/ML-Project-19-Breast_Cancer_Classification_Best_Features/best_features_knn.json", 'r') as file:
+with open("Best Features/ML-Project-19-Breast_Cancer_Classification_Best_Features/best_features_knn.json", 'r') as file:
     best_features_knn_breast_cancer = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Models/ML-Project-19-Breast_Cancer_Classification_Models/parkinsons_disease_trained_lr_model.sav", 'rb') as f:
+with open("Models/ML-Project-19-Breast_Cancer_Classification_Models/parkinsons_disease_trained_lr_model.sav", 'rb') as f:
     loaded_model_lr_breast_cancer = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Models/ML-Project-19-Breast_Cancer_Classification_Models/parkinsons_disease_trained_xgb_model.sav", 'rb') as f:
+with open("Models/ML-Project-19-Breast_Cancer_Classification_Models/parkinsons_disease_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_breast_cancer = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-20-Multiple Disease Prediction System/Updated/Models/ML-Project-19-Breast_Cancer_Classification_Models/parkinsons_disease_trained_knn_model.sav", 'rb') as f:
+with open("Models/ML-Project-19-Breast_Cancer_Classification_Models/parkinsons_disease_trained_knn_model.sav", 'rb') as f:
     loaded_model_knn_breast_cancer = pickle.load(f)
 
 
