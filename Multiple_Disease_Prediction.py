@@ -202,14 +202,14 @@ def main():
         
         #getting input data from user
 
-        Pregnancies = st.number_input("Number of Pregnancies",format="%.6f")
-        Glucose = st.number_input("Glucose Level",format="%.6f")
-        BloodPressure = st.number_input("BloodPressure volume",format="%.6f")
-        SkinThickness = st.number_input("SkinThickness value",format="%.6f")
-        Insulin = st.number_input("Insulin level",format="%.6f")
-        BMI = st.number_input("BMI value",format="%.6f")
-        DiabetesPedigreeFunction = st.number_input("DiabetesPedigreeFunction value",format="%.6f")
-        Age = st.number_input("Age of the person",format="%.6f")
+        Pregnancies = st.number_input("Number of Pregnancies",format="%.0f")
+        Glucose = st.number_input("Glucose Level",format="%.2f")
+        BloodPressure = st.number_input("BloodPressure volume",format="%.2f")
+        SkinThickness = st.number_input("SkinThickness value",format="%.2f")
+        Insulin = st.number_input("Insulin level",format="%.2f")
+        BMI = st.number_input("BMI value",format="%.2f")
+        DiabetesPedigreeFunction = st.number_input("DiabetesPedigreeFunction value",format="%.3f")
+        Age = st.number_input("Age of the person",format="%.0f")
 
         
 
