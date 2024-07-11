@@ -2,42 +2,42 @@
 This repository contains a Multiple Disease Prediction System WebApp developed using Streamlit and hosted on Streamlit Cloud. The web app integrates four different disease prediction systems, each utilizing machine learning models to provide accurate predictions. The diseases covered are:
 
 
-Diabetes Prediction System
+1. Diabetes Prediction System
 
-Heart Disease Prediction System
+2. Heart Disease Prediction System
 
-Parkinson Disease Prediction System
+3. Parkinson Disease Prediction System
 
-Breast Cancer Prediction System
+4. Breast Cancer Prediction System
 
 
 Table of Contents:
 
-Overview
+* Overview
 
-Project Structure
+* Project Structure
 
-Installation
+* Installation
 
-Usage
+* Usage
 
-Dataset Description
+* Dataset Description
 
-Technologies Used
+* Technologies Used
 
-Model Development Process
+* Model Development Process
 
-Models Used
+* Models Used
 
-Model Evaluation
+* Model Evaluation
 
-Conclusion
+* Conclusion
 
-Deployment
+* Deployment
 
-Contributing
+* Contributing
 
-License
+* License
 
 
 # Overview
