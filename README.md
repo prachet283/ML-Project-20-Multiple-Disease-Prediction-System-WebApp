@@ -98,6 +98,27 @@ Data Analysis and Visualization: Pandas, NumPy, Matplotlib, Seaborn
 # Model Development Process
 Each disease prediction system was developed through the following steps:
 
+1. Importing the Dependencies
+2. Exploratory Data Analysis (EDA)
+3. Data Preprocessing
+   i. Handling missing values
+   ii. Handling outliers
+   iii. Label encoding/One-hot encoding
+   iv. Standardizing the data
+4. Model Selection
+   i. Selected the most common 5 classification models
+   ii. Trained each model and checked cross-validation scores
+   iii. Chose the top 3 models based on cross-validation scores
+5. Model Building and Evaluation
+   i. Selected best features using Recursive Feature Elimination (RFE)
+   ii. Performed hyperparameter tuning using Grid Search CV
+   iii. Built the final model with the best hyperparameters and features
+   iv. Evaluated the model using classification reports
+
+# Models Used
+The top 3 models for each disease prediction system are as follows:
+
+
 
 
 
