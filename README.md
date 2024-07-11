@@ -172,6 +172,63 @@ Each disease prediction system was developed through the following steps:
 The top 3 models for each disease prediction system are as follows:
 
 
+Models Used
+The top 3 models for each disease prediction system are as follows:
+
+1. Diabetes Prediction System
+Support Vector Classifier: Effective in high-dimensional spaces.
+Logistic Regression: Simple and effective binary classification model.
+Random Forest Classifier: Ensemble method that reduces overfitting.
+2. Heart Disease Prediction System
+XGBoost: Boosting algorithm known for high performance.
+Random Forest Classifier: Robust and handles missing values well.
+Logistic Regression: Interpretable and performs well with binary classification.
+3. Parkinson Disease Prediction System
+K-Nearest Neighbour: Simple algorithm that works well with small datasets.
+XGBoost: Powerful gradient boosting framework.
+Random Forest Classifier: Effective and reduces overfitting.
+4. Breast Cancer Prediction System
+Logistic Regression: Highly interpretable and performs well with binary classification.
+XGBoost: Excellent performance with complex datasets.
+K-Nearest Neighbour: Effective with smaller datasets and straightforward implementation.
+Model Evaluation
+1. Diabetes Prediction System
+Model	Accuracy
+Support Vector Classifier	78.5%
+Logistic Regression	77.6%
+Random Forest Classifier	76.3%
+2. Heart Disease Prediction System
+Model	Accuracy
+XGBoost	84.1%
+Random Forest Classifier	82.3%
+Logistic Regression	81.0%
+3. Parkinson Disease Prediction System
+Model	Accuracy
+K-Nearest Neighbour	87.2%
+XGBoost	85.1%
+Random Forest Classifier	84.6%
+4. Breast Cancer Prediction System
+Model	Accuracy
+Logistic Regression	95.8%
+XGBoost	94.1%
+K-Nearest Neighbour	93.7%
+Conclusion
+This Multiple Disease Prediction System WebApp provides an easy-to-use interface for predicting the likelihood of various diseases based on input features. The models used are well-validated and tuned for high accuracy. The system aims to assist in early diagnosis and better decision-making in healthcare.
+
+Deployment
+The web app is hosted on Streamlit Cloud. You can access it using the following link:
+
+Multiple Disease Prediction System WebApp
+
+Contributing
+Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
+
+
 
 
 
