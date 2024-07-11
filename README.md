@@ -1,24 +1,42 @@
 # Multiple Disease Prediction System WebApp
 This repository contains a Multiple Disease Prediction System WebApp developed using Streamlit and hosted on Streamlit Cloud. The web app integrates four different disease prediction systems, each utilizing machine learning models to provide accurate predictions. The diseases covered are:
 
+
 Diabetes Prediction System
+
 Heart Disease Prediction System
+
 Parkinson Disease Prediction System
+
 Breast Cancer Prediction System
 
-Table of Contents
+
+Table of Contents:
+
 Overview
+
 Project Structure
+
 Installation
+
 Usage
+
 Dataset Description
+
 Technologies Used
+
 Model Development Process
+
 Models Used
+
 Model Evaluation
+
 Conclusion
+
 Deployment
+
 Contributing
+
 License
 
 
@@ -27,40 +45,75 @@ This web application allows users to select from four different disease predicti
 
 
 # Project Structure
+
 ├── diabetes_prediction
+
 │   ├── diabetes_data.csv
+
 │   ├── diabetes_model.pkl
+
 │   ├── diabetes_eda.ipynb
+
 │   ├── diabetes_preprocessing.py
+
 │   ├── diabetes_model_selection.py
+
 │   ├── diabetes_prediction.py
+
 │
+
 ├── heart_disease_prediction
+
 │   ├── heart_disease_data.csv
+
 │   ├── heart_disease_model.pkl
+
 │   ├── heart_disease_eda.ipynb
+
 │   ├── heart_disease_preprocessing.py
+
 │   ├── heart_disease_model_selection.py
+
 │   ├── heart_disease_prediction.py
+
 │
+
 ├── parkinson_disease_prediction
+
 │   ├── parkinson_data.csv
+
 │   ├── parkinson_model.pkl
+
 │   ├── parkinson_eda.ipynb
+
 │   ├── parkinson_preprocessing.py
+
 │   ├── parkinson_model_selection.py
+
 │   ├── parkinson_prediction.py
+
 │
+
 ├── breast_cancer_prediction
+
 │   ├── breast_cancer_data.csv
+
 │   ├── breast_cancer_model.pkl
+
 │   ├── breast_cancer_eda.ipynb
+
 │   ├── breast_cancer_preprocessing.py
+
 │   ├── breast_cancer_model_selection.py
+
 │   ├── breast_cancer_prediction.py
+
 │
+
 ├── streamlit_app.py
+
 ├── requirements.txt
+
 └── README.md
 
 
