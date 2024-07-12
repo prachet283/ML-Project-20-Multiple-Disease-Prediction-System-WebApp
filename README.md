@@ -14,7 +14,6 @@ This repository contains a Multiple Disease Prediction System WebApp developed u
 Table of Contents:
 
 * Overview
-* Project Structure
 * Installation
 * Usage
 * Dataset Description
