@@ -14,31 +14,17 @@ This repository contains a Multiple Disease Prediction System WebApp developed u
 Table of Contents:
 
 * Overview
-
 * Project Structure
-
 * Installation
-
 * Usage
-
 * Dataset Description
-
 * Technologies Used
-
 * Model Development Process
-
 * Models Used
-
 * Model Evaluation
-
 * Conclusion
-
 * Deployment
-
 * Contributing
-
-* License
-
 
 # Overview
 This web application allows users to select from four different disease prediction systems and get predictions based on the input features. Each prediction system was developed through extensive data analysis and model selection processes, ensuring high accuracy and reliability.
@@ -133,7 +119,7 @@ This will launch the web app in your default web browser. You can then select th
 
 Description: This dataset contains 768 instances of patient data, with 8 features including glucose levels, blood pressure, and insulin levels, used to predict diabetes.
 
-2. Heart Disease Prediction System\
+2. Heart Disease Prediction System
 
 Description: This dataset includes 1025 instances with 14 features such as age, sex, chest pain type, and resting blood pressure, used to predict the presence of heart disease.
 
@@ -161,84 +147,84 @@ Each disease prediction system was developed through the following steps:
 
 1. Importing the Dependencies
 
-3. Exploratory Data Analysis (EDA)
+2. Exploratory Data Analysis (EDA)
 
-5. Data Preprocessing
+3. Data Preprocessing
    * Handling missing values
    * Handling outliers
    * Label encoding/One-hot encoding
    * Standardizing the data
-6. Model Selection
-   i. Selected the most common 5 classification models
-   ii. Trained each model and checked cross-validation scores
-   iii. Chose the top 3 models based on cross-validation scores
-7. Model Building and Evaluation
-   i. Selected best features using Recursive Feature Elimination (RFE)
-   ii. Performed hyperparameter tuning using Grid Search CV
-   iii. Built the final model with the best hyperparameters and features
-   iv. Evaluated the model using classification reports
+
+4. Model Selection
+   * Selected the most common 5 classification models
+   * Trained each model and checked cross-validation scores
+   * Chose the top 3 models based on cross-validation scores
+
+5. Model Building and Evaluation
+   * Selected best features using Recursive Feature Elimination (RFE)
+   * Performed hyperparameter tuning using Grid Search CV
+   * Built the final model with the best hyperparameters and features
+   * Evaluated the model using classification reports
+
 
 # Models Used
 The top 3 models for each disease prediction system are as follows:
 
+1. Diabetes Prediction System
+- Support Vector Classifier: Effective in high-dimensional spaces.
+- Logistic Regression: Simple and effective binary classification model.
+- Random Forest Classifier: Ensemble method that reduces overfitting.
 
-Models Used
-The top 3 models for each disease prediction system are as follows:
+2. Heart Disease Prediction System
+- XGBoost: Boosting algorithm known for high performance.
+- Random Forest Classifier: Robust and handles missing values well.
+- Logistic Regression: Interpretable and performs well with binary classification.
+
+3. Parkinson Disease Prediction System
+- K-Nearest Neighbour: Simple algorithm that works well with small datasets.
+- XGBoost: Powerful gradient boosting framework.
+- Random Forest Classifier: Effective and reduces overfitting.
+
+4. Breast Cancer Prediction System
+- Logistic Regression: Highly interpretable and performs well with binary classification.
+- XGBoost: Excellent performance with complex datasets.
+- K-Nearest Neighbour: Effective with smaller datasets and straightforward implementation.
+
+
+# Model Evaluation
 
 1. Diabetes Prediction System
-Support Vector Classifier: Effective in high-dimensional spaces.
-Logistic Regression: Simple and effective binary classification model.
-Random Forest Classifier: Ensemble method that reduces overfitting.
-2. Heart Disease Prediction System
-XGBoost: Boosting algorithm known for high performance.
-Random Forest Classifier: Robust and handles missing values well.
-Logistic Regression: Interpretable and performs well with binary classification.
-3. Parkinson Disease Prediction System
-K-Nearest Neighbour: Simple algorithm that works well with small datasets.
-XGBoost: Powerful gradient boosting framework.
-Random Forest Classifier: Effective and reduces overfitting.
-4. Breast Cancer Prediction System
-Logistic Regression: Highly interpretable and performs well with binary classification.
-XGBoost: Excellent performance with complex datasets.
-K-Nearest Neighbour: Effective with smaller datasets and straightforward implementation.
-Model Evaluation
-1. Diabetes Prediction System
 Model	Accuracy
-Support Vector Classifier	78.5%
-Logistic Regression	77.6%
-Random Forest Classifier	76.3%
+- Support Vector Classifier	78.5%
+- Logistic Regression	77.6%
+- Random Forest Classifier	76.3%
+
 2. Heart Disease Prediction System
 Model	Accuracy
-XGBoost	84.1%
-Random Forest Classifier	82.3%
-Logistic Regression	81.0%
+- XGBoost	84.1%
+- Random Forest Classifier	82.3%
+- Logistic Regression	81.0%
+
 3. Parkinson Disease Prediction System
 Model	Accuracy
-K-Nearest Neighbour	87.2%
-XGBoost	85.1%
-Random Forest Classifier	84.6%
+- K-Nearest Neighbour	87.2%
+- XGBoost	85.1%
+- Random Forest Classifier	84.6%
+
 4. Breast Cancer Prediction System
 Model	Accuracy
-Logistic Regression	95.8%
-XGBoost	94.1%
-K-Nearest Neighbour	93.7%
-Conclusion
+- Logistic Regression	95.8%
+- XGBoost	94.1%
+- K-Nearest Neighbour	93.7%
+
+# Conclusion
 This Multiple Disease Prediction System WebApp provides an easy-to-use interface for predicting the likelihood of various diseases based on input features. The models used are well-validated and tuned for high accuracy. The system aims to assist in early diagnosis and better decision-making in healthcare.
 
-Deployment
+# Deployment
 The web app is hosted on Streamlit Cloud. You can access it using the following link:
 
 Multiple Disease Prediction System WebApp
 
-Contributing
+# Contributing
 Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-
-
-
-
-
 
