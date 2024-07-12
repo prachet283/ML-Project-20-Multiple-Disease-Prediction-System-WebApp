@@ -195,27 +195,27 @@ The top 3 models for each disease prediction system are as follows:
 
 1. Diabetes Prediction System
 Model	Accuracy
-- Support Vector Classifier	78.5%
-- Logistic Regression	77.6%
-- Random Forest Classifier	76.3%
+- Support Vector Classifier	69.480%
+- Logistic Regression	70.129%
+- Random Forest Classifier	75.324%
 
 2. Heart Disease Prediction System
 Model	Accuracy
-- XGBoost	84.1%
-- Random Forest Classifier	82.3%
-- Logistic Regression	81.0%
+- XGBoost	100%
+- Random Forest Classifier	100%
+- Logistic Regression	88.311%%
 
 3. Parkinson Disease Prediction System
 Model	Accuracy
-- K-Nearest Neighbour	87.2%
-- XGBoost	85.1%
-- Random Forest Classifier	84.6%
+- K-Nearest Neighbour	100%
+- XGBoost	92.307%
+- Random Forest Classifier	94.871%
 
 4. Breast Cancer Prediction System
 Model	Accuracy
-- Logistic Regression	95.8%
-- XGBoost	94.1%
-- K-Nearest Neighbour	93.7%
+- Logistic Regression	97.368%
+- XGBoost	97.368%
+- K-Nearest Neighbour	96.491%
 
 # Conclusion
 This Multiple Disease Prediction System WebApp provides an easy-to-use interface for predicting the likelihood of various diseases based on input features. The models used are well-validated and tuned for high accuracy. The system aims to assist in early diagnosis and better decision-making in healthcare.
@@ -223,7 +223,7 @@ This Multiple Disease Prediction System WebApp provides an easy-to-use interface
 # Deployment
 The web app is hosted on Streamlit Cloud. You can access it using the following link:
 
-Multiple Disease Prediction System WebApp
+https://ml-project-20-multiple-disease-prediction-system-rzzsjoxpjyj32.streamlit.app/
 
 # Contributing
 Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue.
