@@ -32,23 +32,31 @@ This web application allows users to select from four different disease predicti
 
 # Project Structure
 
-├── diabetes_prediction
+├── Best Features
 
-│   ├── diabetes_data.csv
+│   ├── ML-Project-2-Diabetes_Prediction_Best_Features
 
-│   ├── diabetes_model.pkl
+│   ├── ML-Project-9-Heart_Disease_Prediction_Best_Features
 
-│   ├── diabetes_eda.ipynb
+│   ├── ML-Project-14-Parkinson's_Disease_Prediction_Best_Features
 
-│   ├── diabetes_preprocessing.py
+│   |   ├── best_features_knn.json
 
-│   ├── diabetes_model_selection.py
+│   |   ├── best_features_rfc.json
 
-│   ├── diabetes_prediction.py
+│   |   ├── best_features_xgb.json
+
+│   ├── ML-Project-19-Breast_Cancer_Classification_Best_Features
+
+│   |   ├── best_features_knn.json
+
+│   |   ├── best_features_rfc.json
+
+│   |   ├── best_features_xgb.json
 
 │
 
-├── heart_disease_prediction
+├── Datasets
 
 │   ├── heart_disease_data.csv
 
@@ -64,7 +72,7 @@ This web application allows users to select from four different disease predicti
 
 │
 
-├── parkinson_disease_prediction
+├── Models
 
 │   ├── parkinson_data.csv
 
@@ -80,7 +88,7 @@ This web application allows users to select from four different disease predicti
 
 │
 
-├── breast_cancer_prediction
+├── Notebooks
 
 │   ├── breast_cancer_data.csv
 
@@ -96,7 +104,9 @@ This web application allows users to select from four different disease predicti
 
 │
 
-├── streamlit_app.py
+├── Preprocessing Files
+
+├── Multiple_Disease_Prediction.py
 
 ├── requirements.txt
 
