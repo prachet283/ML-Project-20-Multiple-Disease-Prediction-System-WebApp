@@ -260,7 +260,7 @@ def main():
         col1 , col2 , col3 = st.columns(3)
 
         with col1:
-            age = st.number_input("Age in years")
+            age = st.number_input("Age in years",format="%.0f")
         with col2:
             option1 = st.selectbox('Gender',('Male', 'Female')) 
             sex = 0 if option1 == 'Female' else 1
@@ -340,7 +340,7 @@ def main():
         
         
         #creating a button for Prediction
-        if st.button("Heart Disease Test Result"):
+        if st.button("Predict Heart Disease"):
             if(heart_disease_diagnosis_xgb[0]==0):
                 prediction = 'The Person does not have any Heart Disease' 
             else:
