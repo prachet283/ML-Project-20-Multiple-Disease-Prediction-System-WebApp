@@ -348,19 +348,19 @@ def main():
             st.write(f"Prediction: {prediction}")
         
         if st.checkbox("Show Advanced Options"):
-            if st.button("Heart Disease Test Result with XG Boost Classifier"):
+            if st.button("Predict Heart Disease with XG Boost Classifier"):
                 if(heart_disease_diagnosis_xgb[0]==0):
                     prediction = 'The Person does not have any Heart Disease' 
                 else:
                     prediction = 'The Person have any Heart Disease'
                 st.write(f"Prediction: {prediction}")
-            if st.button("Heart Disease Test Result with Random Forest Classifier"):
+            if st.button("Predict Heart Disease with Random Forest Classifier"):
                 if(heart_disease_diagnosis_rfc[0]==0):
                     prediction = 'The Person does not have any Heart Disease' 
                 else:
                     prediction = 'The Person have any Heart Disease'
                 st.write(f"Prediction: {prediction}")
-            if st.button("Heart Disease Test Result with Logistics Regression"):
+            if st.button("Predict Heart Disease with Logistics Regression"):
                 if(heart_disease_diagnosis_lr[0]==0):
                     prediction = 'The Person does not have any Heart Disease' 
                 else:
