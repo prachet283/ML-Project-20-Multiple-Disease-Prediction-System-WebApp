@@ -32,7 +32,7 @@ This web application allows users to select from four different disease predicti
 To run this project locally, please follow these steps:
 1. Clone the repository
 2. Navigate to the project directory
-3. nstall the required dependencies
+3. Install the required dependencies
 
 
 # Usage
